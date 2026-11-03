@@ -1,0 +1,22 @@
+# Local credentials and configuration
+config.user.yml
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime files and downloads
+*.log
+log.txt
+img/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
